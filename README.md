@@ -2,7 +2,7 @@
 This project focuses on analyzing lead conversion data and visualizing key metrics to understand the effectiveness of the lead conversion funnel. The dataset used in this analysis contains detailed information about leads, such as their demographic data, monthly income, loan amounts, and whether they were contacted or approved. The primary goal of this analysis is to evaluate the stages of lead conversion from leads created to those contacted and finally approved.
 
 ## Project Structure
-### Data Preprocessing:
+### Data Processing:
 
 - Loaded the dataset using Pandas.
 - Checked for missing values, duplicates, and data inconsistencies.
@@ -21,5 +21,6 @@ Created visualizations in Looker Studio:
 - Approved Leads: Only 1,020 leads were approved, indicating a high dropout rate in the lead funnel.
 
 ## Tools & Technologies
-- Pandas: For data manipulation and cleaning.
+- Google Colab: 
+  - Pandas: For data manipulation and cleaning.
 - Looker Studio: For data visualization, including the creation of funnel charts and stacked column charts.
